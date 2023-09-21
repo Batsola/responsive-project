@@ -46,7 +46,7 @@ p {
   text-transform: capitalize;
 }
 .primary-link:hover {
-  color: #158bf1;
+  color: white;
 }
 .about-link {
   color: var(--primary-color);
@@ -85,6 +85,7 @@ p {
 @media (max-width: 576px) {
   h1 {
     font-size: 48px;
+    line-height: 1.5;
   }
 
   h2 {
@@ -94,9 +95,7 @@ p {
   p {
     text-align: center;
   }
-  .img-project {
-    display: none;
-  }
+
   .project-link {
     display: block;
     text-align: center;
